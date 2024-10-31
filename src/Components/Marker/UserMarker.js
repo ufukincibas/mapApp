@@ -3,9 +3,9 @@ import React from "react";
 import { Marker } from "react-native-maps";
 import styles from "./UserMarker.styles"
 
-const UserMarker = ({coordinates , userImageURL}) => {
+const UserMarker = ({coordinates , userImageURL , onSelect}) => {
     return(
-    <Marker coordinate={coordinates}>
+    <Marker coordinate={coordinates} onPress={onSelect}>
             <Image 
             style={styles.image}
             source={{uri : userImageURL}}
