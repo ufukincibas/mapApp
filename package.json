@@ -15,7 +15,8 @@
     "react-native": "0.76.1",
     "react-native-config": "^1.5.3",
     "react-native-dotenv": "^3.4.11",
-    "react-native-maps": "^1.18.2"
+    "react-native-maps": "^1.18.2",
+    "react-native-modal": "^13.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
